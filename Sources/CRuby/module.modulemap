@@ -1,0 +1,5 @@
+module CRuby [system] {
+  header "shim.h"
+  link "ruby"
+  export *
+}
