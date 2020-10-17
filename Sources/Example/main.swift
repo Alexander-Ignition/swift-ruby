@@ -1,7 +1,6 @@
 import Foundation
 import RubyKit
 
-Ruby.setup()
 Ruby.showVersion()
 
 do {
@@ -21,10 +20,3 @@ do {
     print("to_s:", array.to_s())
     print("to_sym:", hello.to_sym())
 }
-//do {
-//    var string = rb_str_new_cstr("Hello world")
-//    let result = rb_funcallv(string, rb_intern("to_s"), 1, RUBY_Qnil)
-//    rb_p(result)
-//}
-
-//rb_require("1")
